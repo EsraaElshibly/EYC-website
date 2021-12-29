@@ -1,0 +1,95 @@
+/****************** Start code for Registertion form ************/
+i, svg {
+    color: white ;
+    padding-left: 10px ;
+}
+
+.login-form {
+    height: 100% ;
+}
+
+.reg-form {
+    margin-top: 50px;
+}
+
+.reg-form input {display: block;}
+
+.reg-form input,
+.profile .form form input {
+    padding: 25px 0px;
+    width: 55%;
+    height: 20px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    outline: none;
+    font-size: 15px;
+}
+
+.reg-form .form-but {
+    margin-top: 20px;
+}
+
+.reg-form .pri-but {
+    margin-left: 0px
+}
+
+.reg-form .re-pass {
+    padding-left: 8%;
+}
+
+.reset-pass {
+    padding-top: 20%;
+    text-align: center;
+}
+
+/** Start code for Profile Information **/
+.profile h2 {
+    padding-top: 50px;
+}
+
+.profile .profile-pic {
+    border-radius: 50%;
+    width: 70%;
+}
+
+.profile h5 {
+    color: #0066cc;
+}
+
+.profile h5 p {
+    color: black;
+    padding-top: 5px;
+}
+
+.profile .profile-but {
+    margin: 0;
+}
+/** End code for Profile Information **/
+
+/** Start code for Edit Profile Information **/
+.profile .form form label {
+    padding-right: 20px;
+}
+
+.profile .form form .edit-profile-but {
+    margin: 0;
+    margin-top: 30px;
+}
+/** End code for Edit Profile Information **/
+
+/****************** End code for Registertion form ************/
+
+/************ Start code for Privay Setting ***********/
+.priv-page {
+    margin-bottom: 180px
+}
+
+.priv-page .container h2 {
+    padding-top :50px
+}
+
+.priv-page .container p {
+    line-height: 2em
+}
+/************ End code for Privay Setting ***********/

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link code for icon link in top of page -->
+    <link rel="shortcut icon" href="./images/logo.jpg" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <!-------------- Start Font Awesome link --------------->
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <!------------ End Font-awesome links ------------>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>EYC</title>
+</head>
+<body>
+    <!-- '1' Start Header -->
+    <header class="main-header">
+        <div class="fi-main-header" >
+            <ul>
+                <li> <a href="./board.html">Board</a> </li>
+                <li> <a href="#">Team</a> </li>
+                <li> <a href="./media.html">Media</a> </li>
+                <li> <a href="#">Tech Team</a> </li>
+                <li> <a href="#">AR</a> </li>
+                <li class="icon"> <a href="#"> <i class="fas fa-home" style="color: white;"></i> </a> </li>
+            </ul>
+        </div>
+        <div></div>
+    </header>
+    <!-- '2' End Header -->
+
+    <!-- '2' Start Code for navbar -->
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo-pic" src="./images/EYC-logo.jpg" alt="Logo" title="Logo" /></a>
+          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- First DropDown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      EYC Work Fields
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#peace" onclick="OpenSingleFieldsPage()">Peace & Security</a></li>
+                      <li><a class="dropdown-item" href="#Political"  onclick="OpenSingleFieldsPage()">Political Participation</a></li>
+                      <li><a class="dropdown-item" href="#Women"  onclick="OpenSingleFieldsPage()">Women </a></li>
+                      <li><a class="dropdown-item" href="#Human"  onclick="OpenSingleFieldsPage()">Human Rights </a></li>
+                      <li><a class="dropdown-item" href="#Environment"  onclick="OpenSingleFieldsPage()">Environment</a></li>
+                    </ul>
+                  </li>
+
+                  <!-- Second DropDown -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      EYC Publications
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#Research"  onclick="OpenSingleFieldsPage()">Research & Studies</a></li>
+                      <li><a class="dropdown-item" href="#Media"  onclick="OpenSingleFieldsPage()"> Media </a></li>
+                      <li><a class="dropdown-item" href="#Youth"  onclick="OpenSingleFieldsPage()">Youth & Pie youth </a></li>
+                      <li><a class="dropdown-item" href="#Tech"  onclick="OpenSingleFieldsPage()">Technology</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ourParteners.html">Partnership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- '2' End Code for navbar -->
+
+    <!-- "3" start Code for Slider -->
+    <div class="slider-home">
+        <img class="img-slider" src="./images/background.jpg" alt="slider pic" title="slider" />
+    </div>
+    <!-- "3" End Code for Slider -->
+
+    <!-- '4' Start Code For EYC counters -->
+    <div class="counters container">
+        <h2> counters </h2>
+        <div class="row content-counter">
+            <!------- Start first counter ------->
+            <div class="first-counter counter-box col-lg-3 col-md-4 col-sm-6 col-12">
+                <p><i class=" far fa-chart-bar fa-3x icons"></i> </p>
+                <h5>200</h5>
+                <h3>training</h3>
+            </div>
+            <!------- End first counter ------->
+
+            <!------- Start Second counter ------->
+            <div class="second-counter counter-box col-lg-3 col-md-4 col-sm-6 col-12">
+                <p> <i class="fa fa-graduation-cap fa-3x icons"></i> </p>
+                <h5>200</h5>
+                <h3>Youth Gradutated</h3>
+            </div>
+            <!------- End Second counter ------->
+
+            <!------- Start Third counter ------->
+            <div class="third-counter counter-box col-lg-3 col-md-4 col-sm-6 col-12">
+                <p> <i class="fas fa-users fa-3x icons"></i> </p>
+                <h5>36,000</h5>
+                <h3>follower</h3>
+            </div>
+            <!------- End Third counter ------->
+
+            <!------- Start fourth counter ------->
+            <div class="fourth-counter counter-box col-lg-3 col-md-4 col-sm-6 col-12">
+                <p> <i class="fas fa-map-marker-alt fa-3x icons"></i> </p>
+                <h5>100</h5>
+                <h3>event </h3>
+            </div>
+            <!------- End fourth counter ------->
+        </div>
+    </div>
+    <!-- '4' End Code For EYC counters -->
+
+    <!-- "5" Start Code for img section -->
+    <section class="container">
+        <!-- Heading for this section -->
+        <div class="sec-heading">
+            <h3>fields for egyption youth council</h3>
+        </div>
+        <!-- First Row -->
+        <div class="row home-sec-row">
+            <section class="img-section col-md-6 col-12" onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p id="peace" class="field-text">Peace & Security</p>
+                </div>
+            </section>
+            <section class="img-section col-md-6 col-12" onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Political">Political Participation</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row home-sec-row">
+            <section class="img-section col-md-6 col-12" onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Women">Women</p>
+                </div>
+            </section>
+            <section class="img-section col-md-6 col-12" onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Human">Human Rights</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Third Row -->
+        <div class="row home-sec-row">
+            <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Environment">Environment</p>
+                </div>
+            </section>
+            <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Research">Research & Studies</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Fourth Row -->
+        <div class="row home-sec-row">
+            <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Media">Media</p>
+                </div>
+            </section>
+            <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Youth">Youth & Pie youth </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Fifth Row -->
+        <div class="row home-sec-row">
+            <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text" id="Technology">Technology</p>
+                </div>
+            </section>
+            <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
+                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
+                <div class="bottom-right">
+                    <p class="field-text">Field one</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- "5" Start Code for img section -->
+
+    <!-- '6' Start code for footer--> 
+    <footer>
+        <div class="container">
+            <div class="row footer-content">
+                <div class="copy-right col-md-4 col-12">
+                    <ul>
+                        <li> <a href="#">Board</a> </li>
+                        <li> <a href="#">Team</a> </li>
+                        <li> <a href="#">Media</a> </li>
+                        <li> <a href="#">Tech Team</a> </li>
+                        <li> <a href="#">AR</a> </li>
+                    </ul>
+                    <!-- &copy;2021 EYC.All right recived -->
+                </div>
+                <div class="info-links col-md-4 col-12">
+                    <ul>
+                        <li> <a href="#">Peace & Security</a> </li>
+                        <li> <a href="#">Political Participation</a> </li>
+                        <li> <a href="#">Women </a> </li>
+                        <li> <a href="#">Human Rights</a> </li>
+                        <li> <a href="#">Environment</a> </li>
+                    </ul>
+                    <!-- <h5>
+                        Front-End developed by: <br/>
+                        <a href="https:www.linkedin.com/in/esraa-elshibly-2172001aa" >
+                            Esraa Elshibly
+                        </a>
+                    </h5>
+                    <h5>
+                        Back-End developed by: <br/>
+                        <a href="https:www.linkedin.com/in/esraa-elshibly-2172001aa" >
+                            Bassam Ahmed
+                        </a>
+                    </h5> -->
+                </div>
+                <div class="footer-contact col-md-4 col-12">
+                    <ul>
+                        <li> <a href="#">Research & Studies</a> </li>
+                        <li> <a href="#">Media</a> </li>
+                        <li> <a href="#">Youth & Pie youth </a> </li>
+                        <li> <a href="#">Technology</a> </li>
+                    </ul>
+                    <!-- <a href="https://www.facebook.com/eycd2030"><i class="facebook fab fa-facebook-f fa-2x"></i></a>
+                    <a href="https://instagram.com/egyptyouthcouncil?utm_medium=copy_link fa-2x"><i class="instagram fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/eycd1/"><i class="linkedin fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://twitter.com/eycd2021"><i class="twitter fab fa-twitter fa-2x"></i></a> -->
+                </div>
+            </div>
+            <div class="copy-r">
+                &copy;2021 EYC.All right recived
+            </div>
+        </div>
+    </footer>
+    <!-- '6' End code for footer-->
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/script.js" ></script>
+</body>
+</html>
