@@ -17,17 +17,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>EYC</title>
 </head>
-<body>
+<body onscroll="HandleScroll()">
     <!-- '1' Start Header -->
-    <header class="main-header">
+    <header class="main-header" id="heeader">
         <div class="fi-main-header" >
             <ul>
                 <li> <a href="./board.html">Board</a> </li>
-                <li> <a href="#">Team</a> </li>
-                <li> <a href="./media.html">Media</a> </li>
-                <li> <a href="#">Tech Team</a> </li>
+                <li> <a href="./Tech-team.html">Technology Team</a> </li>
+                <li> <a href="./Radio.html">Radio</a> </li>
+                <li> <a href="./Branches.html">Branches</a> </li>
                 <li> <a href="#">AR</a> </li>
-                <li class="icon"> <a href="#"> <i class="fas fa-home" style="color: white;"></i> </a> </li>
+                <li class="icon"> <a href="./index.html"> <i class="fas fa-home" style="color: white;"></i> </a> </li>
             </ul>
         </div>
         <div></div>
@@ -35,7 +35,7 @@
     <!-- '2' End Header -->
 
     <!-- '2' Start Code for navbar -->
-    <nav class="navbar navbar-expand-lg bg-light ">
+    <nav class="navbar navbar-expand-lg" id="nnav">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="logo-pic" src="./images/EYC-logo.jpg" alt="Logo" title="Logo" /></a>
           <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +64,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#Research"  onclick="OpenSingleFieldsPage()">Research & Studies</a></li>
-                      <li><a class="dropdown-item" href="#Media"  onclick="OpenSingleFieldsPage()"> Media </a></li>
+                      <li><a class="dropdown-item" href="./Media.html" > Media Center</a></li>
                       <li><a class="dropdown-item" href="#Youth"  onclick="OpenSingleFieldsPage()">Youth & Pie youth </a></li>
                       <li><a class="dropdown-item" href="#Tech"  onclick="OpenSingleFieldsPage()">Technology</a></li>
                     </ul>
@@ -76,7 +76,7 @@
                 <a class="nav-link" href="./ourParteners.html">Partnership</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="./Media.html">Media Center</a>
               </li>
             </ul>
           </div>
@@ -86,7 +86,7 @@
 
     <!-- "3" start Code for Slider -->
     <div class="slider-home">
-        <img class="img-slider" src="./images/background.jpg" alt="slider pic" title="slider" />
+        <img class="img-slider" src="./images/background.jpg" alt="slider pic" title="EYC Photo" />
     </div>
     <!-- "3" End Code for Slider -->
 
@@ -200,17 +200,11 @@
         </div>
 
         <!-- Fifth Row -->
-        <div class="row home-sec-row">
+        <div class="row home-sec-row home-sec-tech-row ">
             <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
                 <img src="./images/999.PNG" alt="Snow" style="width:100%;">
                 <div class="bottom-right">
                     <p class="field-text" id="Technology">Technology</p>
-                </div>
-            </section>
-            <section class="img-section col-md-6 col-12"  onclick="HandleClickToOpenPage()">
-                <img src="./images/999.PNG" alt="Snow" style="width:100%;">
-                <div class="bottom-right">
-                    <p class="field-text">Field one</p>
                 </div>
             </section>
         </div>
@@ -223,21 +217,21 @@
             <div class="row footer-content">
                 <div class="copy-right col-md-4 col-12">
                     <ul>
-                        <li> <a href="#">Board</a> </li>
-                        <li> <a href="#">Team</a> </li>
-                        <li> <a href="#">Media</a> </li>
-                        <li> <a href="#">Tech Team</a> </li>
+                        <li> <a href="./board.html">Board</a> </li>
+                        <li> <a href="./Branches.html">Branches</a> </li>
+                        <li> <a href="./Radio.html">Radio</a> </li>
+                        <li> <a href="./Tech-team.html">Tech Team</a> </li>
                         <li> <a href="#">AR</a> </li>
                     </ul>
                     <!-- &copy;2021 EYC.All right recived -->
                 </div>
                 <div class="info-links col-md-4 col-12">
                     <ul>
-                        <li> <a href="#">Peace & Security</a> </li>
-                        <li> <a href="#">Political Participation</a> </li>
-                        <li> <a href="#">Women </a> </li>
-                        <li> <a href="#">Human Rights</a> </li>
-                        <li> <a href="#">Environment</a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Peace & Security</a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Political Participation</a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Women </a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Human Rights</a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Environment</a> </li>
                     </ul>
                     <!-- <h5>
                         Front-End developed by: <br/>
@@ -254,10 +248,10 @@
                 </div>
                 <div class="footer-contact col-md-4 col-12">
                     <ul>
-                        <li> <a href="#">Research & Studies</a> </li>
-                        <li> <a href="#">Media</a> </li>
-                        <li> <a href="#">Youth & Pie youth </a> </li>
-                        <li> <a href="#">Technology</a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Research & Studies</a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Media</a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Youth & Pie youth </a> </li>
+                        <li> <a href="./SingleFieldsPage.html">Technology</a> </li>
                     </ul>
                     <!-- <a href="https://www.facebook.com/eycd2030"><i class="facebook fab fa-facebook-f fa-2x"></i></a>
                     <a href="https://instagram.com/egyptyouthcouncil?utm_medium=copy_link fa-2x"><i class="instagram fab fa-instagram fa-2x"></i></a>

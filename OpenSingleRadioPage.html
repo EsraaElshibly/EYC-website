@@ -8,32 +8,27 @@
     <link rel="shortcut icon" href="./images/logo.jpg" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
       type="text/css"
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
     />
     <!-------------- Start Font Awesome link --------------->
+    <!-- Icons -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
     />
     <!------------ End Font-awesome links ------------>
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/vendor/all.min.css" />
-    <link rel="stylesheet" href="css/vendor/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Single Page</title>
+    <title>EYC</title>
   </head>
   <body onscroll="HandleScroll()">
     <!-- '1' Start Header -->
@@ -194,74 +189,120 @@
     </nav>
     <!-- '2' End Code for navbar -->
 
-    <!-- '2' Start code for Single Page information-->
-    <div class="single-page">
-      <div class="single-page-img">
-        <img
-          class=""
-          src="./images/background.jpg"
-          alt="Single-page"
-          title="Single-page"
-        />
+    <!-- "3" start Code for Slider -->
+    <div class="news-page">
+      <!-- Parent Div -->
+      <!-- Background img for news page -->
+      <div class="news-page-img">
+        <img src="./images/post.jpg" alt="post pic" title="post pic" />
       </div>
-      <div class="container single-page-info">
-        <h3>field one</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
-          dignissimos inventore explicabo voluptatum ducimus, accusamus nulla,
-          iusto cupiditate corrupti fuga accusantium, ullam nihil nostrum.
-          Deserunt qui ullam incidunt eligendi saepe.
-        </p>
-      </div>
-    </div>
-    <!-- '2' End code for Event information-->
 
-    <!-- '3' Start code for footer-->
+      <!-- Code for news sections -->
+      <section class="container news-page-info">
+        <!-- Heading for this section -->
+        <div class="news-heading">
+          <h3>Dynamic Media Name</h3>
+        </div>
+        <!-- First Row -->
+        <div class="row news-page-box">
+          <section class="news-box-info col-md-4 col-12">
+            <img src="./images/cc.png" alt="New Pic" />
+            <div class="news-info">
+              <h3 class="media-title">Specific Event</h3>
+            </div>
+          </section>
+          <section class="news-box-info col-md-4 col-12">
+            <img src="./images/cc.png" alt="New Pic" />
+            <div class="news-info">
+              <h3 class="media-title">Specific Event</h3>
+            </div>
+          </section>
+          <section class="news-box-info col-md-4 col-12">
+            <img src="./images/cc.png" alt="New Pic" />
+            <div class="news-info">
+              <h3 class="media-title">Specific Event</h3>
+            </div>
+          </section>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row news-page-box">
+          <h3>New Occassion</h3>
+          <section class="news-box-info col-md-4 col-12">
+            <img src="./images/cc.png" alt="New Pic" />
+            <div class="news-info">
+              <h3 class="media-title">Specific Event</h3>
+            </div>
+          </section>
+          <section class="news-box-info col-md-4 col-12">
+            <img src="./images/cc.png" alt="New Pic" />
+            <div class="news-info">
+              <h3 class="media-title">Specific Event</h3>
+            </div>
+          </section>
+          <section class="news-box-info col-md-4 col-12">
+            <img src="./images/cc.png" alt="New Pic" />
+            <div class="news-info">
+              <h3 class="media-title">Specific Event</h3>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+    <!-- '2' End code for Post News-->
+
+    <!-- '6' Start code for footer-->
     <footer>
       <div class="container">
         <div class="row footer-content">
           <div class="copy-right col-md-4 col-12">
-            &copy;2021 EYC.All right recived
+            <ul>
+              <li><a href="#">Board</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Tech Team</a></li>
+              <li><a href="#">AR</a></li>
+            </ul>
+            <!-- &copy;2021 EYC.All right recived -->
           </div>
           <div class="info-links col-md-4 col-12">
-            <h5>
-              Front-End developed by: <br />
-              <a
-                href="https:www.linkedin.com/in/esraa-elshibly-2172001aa"
-                target="_blank"
-              >
-                Esraa Elshibly
-              </a>
-            </h5>
-            <h5>
-              Back-End developed by: <br />
-              <a
-                href="https:www.linkedin.com/in/esraa-elshibly-2172001aa"
-                target="_blank"
-              >
-                Bassam Ahmed
-              </a>
-            </h5>
+            <ul>
+              <li><a href="#">Peace & Security</a></li>
+              <li><a href="#">Political Participation</a></li>
+              <li><a href="#">Women </a></li>
+              <li><a href="#">Human Rights</a></li>
+              <li><a href="#">Environment</a></li>
+            </ul>
+            <!-- <h5>
+                        Front-End developed by: <br/>
+                        <a href="https:www.linkedin.com/in/esraa-elshibly-2172001aa" >
+                            Esraa Elshibly
+                        </a>
+                    </h5>
+                    <h5>
+                        Back-End developed by: <br/>
+                        <a href="https:www.linkedin.com/in/esraa-elshibly-2172001aa" >
+                            Bassam Ahmed
+                        </a>
+                    </h5> -->
           </div>
           <div class="footer-contact col-md-4 col-12">
-            <a href="https://www.facebook.com/eycd2030"
-              ><i class="facebook fab fa-facebook-f fa-2x"></i
-            ></a>
-            <a
-              href="https://instagram.com/egyptyouthcouncil?utm_medium=copy_link fa-2x"
-              ><i class="instagram fab fa-instagram fa-2x"></i
-            ></a>
-            <a href="https://www.linkedin.com/in/eycd1/"
-              ><i class="linkedin fab fa-linkedin-in fa-2x"></i
-            ></a>
-            <a href="https://twitter.com/eycd2021"
-              ><i class="twitter fab fa-twitter fa-2x"></i
-            ></a>
+            <ul>
+              <li><a href="#">Research & Studies</a></li>
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Youth & Pie youth </a></li>
+              <li><a href="#">Technology</a></li>
+            </ul>
+            <!-- <a href="https://www.facebook.com/eycd2030"><i class="facebook fab fa-facebook-f fa-2x"></i></a>
+                    <a href="https://instagram.com/egyptyouthcouncil?utm_medium=copy_link fa-2x"><i class="instagram fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/eycd1/"><i class="linkedin fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://twitter.com/eycd2021"><i class="twitter fab fa-twitter fa-2x"></i></a> -->
           </div>
         </div>
+        <div class="copy-r">&copy;2021 EYC.All right recived</div>
       </div>
     </footer>
-    <!-- '3' End code for footer-->
+    <!-- '6' End code for footer-->
 
     <!-- JavaScript Bundle with Popper -->
     <script
