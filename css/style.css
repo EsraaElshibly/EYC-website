@@ -39,6 +39,12 @@ svg {
 }
 
 /******************************** Start Style for about page **************************/
+.header-nav {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
 .board,
 .branches {
   margin: 70px auto;
@@ -52,7 +58,7 @@ svg {
 .main-header,
 .main-header .fi-main-header ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .main-header .fi-main-header ul li {
@@ -80,29 +86,19 @@ footer ul li a {
   padding-right: 10px;
 }
 
-.nav-item a {
-  color: white;
-}
+.nav-item a { color: white; }
 
-.nav-item a:hover {
-  color: white;
-}
+.nav-item a:hover { color: white ;}
 
 li .dropdown-item,
-li .dropdown-item:hover {
-  color: black;
-}
+li .dropdown-item:hover { color: black; }
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #213e7c;
-}
+.navbar-light .navbar-nav .nav-link:hover { color: #213e7c;}
 
-.navbar .container-fluid ul {
-  padding: 0px 20px;
-}
+.navbar .container-fluid ul { padding: 0px 20px; }
 
 .navbar .container-fluid ul li a {
   padding-left: 15px;
@@ -120,24 +116,34 @@ footer {
   padding: 20px 0px;
 }
 
-footer ul li {
-  list-style: none;
-}
+footer ul li { list-style: none; }
 
-footer ul li {
-  margin-bottom: 17px;
-}
+footer ul li {margin-bottom: 12px;}
 
-footer ul li a:hover {
+footer ul li a:hover,
+footer .copy-r:hover {
   color: white;
+  text-decoration: underline;
 }
 
 footer .copy-r {
   color: white;
-  text-align: center;
   font-size: 20px;
   padding-top: 20px;
 }
+
+footer ul i {
+  color: white;
+  margin-right: 18px;
+  margin-bottom: 29px;
+}
+footer ul .instagram {color: #bc2a8d;}
+footer ul .twitter {color: #1da1f2;}
+footer ul .youtube {color: #E62117;}
+
+footer ul h5 {color: burlywood;}
+footer ul h5 a {color: white;}
+
 /** '7' End style for footer **/
 
 /* Container holding the image and the text */
